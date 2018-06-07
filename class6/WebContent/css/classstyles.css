@@ -1,0 +1,20 @@
+.submittable{
+	width: 700px;
+	border: 0px;
+	text-align: center;
+	float: right;
+	
+}
+.submitform{
+	width: 700px;
+	text-align: center;
+	margin: 0px auto;
+	margin-left: 350px;
+}
+.maxnum{
+	font-weight: bold;
+	font-size: 20px;
+}
+tr>td:FIRST-CHILD {
+	font-size: 12px;
+}

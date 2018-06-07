@@ -1,0 +1,67 @@
+.subm, .back{
+	margin-left: 10px;
+	line-height: -200px;
+	float: right;	
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e3d8c4), color-stop(1, #d6c8b4));
+	background:-moz-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:-webkit-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:-o-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:-ms-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:linear-gradient(to bottom, #e3d8c4 5%, #d6c8b4 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3d8c4', endColorstr='#d6c8b4',GradientType=0);
+	background-color:#e3d8c4;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #a1a1a1;
+	display:inline-block;
+	cursor:pointer;
+	color:#3d3d3d;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:8px 12px;
+	text-decoration:none;
+}
+.subm:hover, .back:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d6c8b4), color-stop(1, #e3d8c4));
+	background:-moz-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:-webkit-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:-o-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:-ms-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:linear-gradient(to bottom, #d6c8b4 5%, #e3d8c4 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6c8b4', endColorstr='#e3d8c4',GradientType=0);
+	background-color:#d6c8b4;
+}
+.subm:active, .back:active {
+	position:relative;
+	top:1px;
+}
+
+.passwordform{
+	text-align: center;
+	margin: auto;
+	width: 300px;
+	height: 200px;
+	border: 1px #968973 solid;
+	background-color: #FFFCF6;
+}
+.pw>span{
+	color: #968973;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+input[name="pw"]{
+	background-color: #FFFCF6;
+	width: 250px;
+	margin-right: 20px;
+	border: 0px black solid;
+	border-bottom: 1px #968973 solid;
+}
+.pw{
+	line-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #FFFCF6;
+	width: 300px;
+}

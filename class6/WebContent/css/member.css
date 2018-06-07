@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+	.infoBox{
+		margin: 125px auto 0px auto;
+	}
+	.btnBox{
+	    text-align: center;
+	}
+	.btnBox>.btn{
+		text-align: center;
+		background-color: #C4D2E3;
+		border: 1px solid gray;
+		border-radius: 6px;
+		width: 70px;
+		height: 30px;
+		font-weight: bold;
+		outline: 0px;
+	}	

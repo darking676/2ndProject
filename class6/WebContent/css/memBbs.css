@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+	.memBbsTop{
+		height: 45px;
+	}
+	.memBbsTop>h1{
+		display: inline-block;
+	}
+	.bbsW{
+		background-color: #C4D2E3;
+		border: 1px solid gray;
+		border-radius: 6px;
+		width: 70px;
+		height: 30px;
+		font-weight: bold;
+		outline: 0px;
+		float: right;
+		margin: 29px 45px 0px 0px;
+	}
+	.listBox{
+		height: 360px;
+	}
+	.listBox>table{
+		width: 700px;
+		margin:0px auto;
+		text-align: center;
+	}
+	.pageView{
+		text-align: center;
+	}	
+	.searchForm{
+	    text-align: center;
+	}

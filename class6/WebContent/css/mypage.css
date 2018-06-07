@@ -1,0 +1,124 @@
+#memInfoBox{
+				width: 700px;
+				height: 450px;
+				margin: 54px auto;
+			}
+			#memInfoBox>h3{
+				margin-left: 15px;
+			}
+			#memInfoBox>.memInfoBoxIn{
+				width: 303px;
+				height: 150px;
+				background-color: #E3D8C4;
+				margin:20px 20px;
+				float: left;
+			}
+			.memInfoBoxIn>label{
+				margin-left: 20px;
+				line-height: 35px;
+				font-weight: bold;
+				font-size: 20px;
+				
+			}
+			.memInfoBoxIn>button{
+				margin-top: 1px;
+				margin-left:  80px;
+			}
+			#memInfoBox>.memInfoBoxIn>.memInfoBoxInCon{
+				width: 303px;
+				height: 110px;
+				background-color: #FFFCF6;
+				margin: 5px auto 0px auto;
+			}
+			n>table{
+				text-align: center;
+				margin: 0px auto;
+			}
+			.mpbtn{
+				background-color: #C4D2E3;
+				border: 1px solid gray;
+				border-radius: 6px;
+				width: 80px;
+				height: 30px;
+				font-weight: bold;
+				outline: 0px;
+			}
+			tr>td:FIRST-CHILD{
+				font-weight: bold;
+				text-align: center;
+				width: 100px;
+				border-right: 1px dotted #968973;
+				color: #968973;
+			}
+			tr>td{
+				height: 30px;
+			}
+			tr>td:nth-child(2){
+			width: 200px;
+				text-align: right;
+			}
+			
+
+.title{
+	width: 293px;
+	border-bottom: 1px gray solid;
+	float: left;
+	text-align: left;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.maintitle {
+	text-align: left;
+	font-size: 25px;
+	font-weight: bold;	
+}
+.subtitle{
+	font-size: 12px;
+}
+
+button {
+	margin-left: 10px;
+	line-height: -200px;
+	float: right;	
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e3d8c4), color-stop(1, #d6c8b4));
+	background:-moz-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:-webkit-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:-o-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:-ms-linear-gradient(top, #e3d8c4 5%, #d6c8b4 100%);
+	background:linear-gradient(to bottom, #e3d8c4 5%, #d6c8b4 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3d8c4', endColorstr='#d6c8b4',GradientType=0);
+	background-color:#e3d8c4;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #a1a1a1;
+	display:inline-block;
+	cursor:pointer;
+	color:#3d3d3d;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	width: 80px;
+	height: 30px;
+}
+button:hover{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d6c8b4), color-stop(1, #e3d8c4));
+	background:-moz-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:-webkit-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:-o-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:-ms-linear-gradient(top, #d6c8b4 5%, #e3d8c4 100%);
+	background:linear-gradient(to bottom, #d6c8b4 5%, #e3d8c4 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6c8b4', endColorstr='#e3d8c4',GradientType=0);
+	background-color:#d6c8b4;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+.memInfoBoxIn>button{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
